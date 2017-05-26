@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyGraph"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGraph">
+				<Option output="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/MyGraph.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/freeglut/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGraph"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGraph/fast">
+				<Option output="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/MyGraph.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/freeglut/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-5.1.0-win32-seh-rt_v4-rev0/mingw64/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGraph/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;D:/MyCodeLife/PRO/Graph/MyGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/base.cpp">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/base.h">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/drawline.cpp">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/drawline.h">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/main.cpp">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/scanline.cpp">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/scanline.h">
+			<Option target="MyGraph"/>
+		</Unit>
+		<Unit filename="D:/MyCodeLife/PRO/Graph/MyGraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
